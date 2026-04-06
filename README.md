@@ -9,7 +9,6 @@ Una colección de **ejemplos** para aprender a desarrollar sistemas multiagente 
 - [Instalación](#instalación)
 - [Uso Rápido](#uso-rápido)
 - [Ejemplos Incluidos](#ejemplos-incluidos)
-- [Estructura del Proyecto](#estructura-del-proyecto)
 - [Recursos y Referencias](#recursos-y-referencias)
 
 ## 🤖 ¿Qué es Jason?
@@ -114,3 +113,7 @@ Adaptar `run_example.bat` a bash o ejecutar manualmente en cada carpeta de ejemp
 **Estado**: ✅ Completo con 18 ejemplos
 
 ¡Disfruta creando sistemas multiagente! 🚀
+
+
+![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white)
+![Jason](https://img.shields.io/badge/Jason-MAS-blueviolet?style=for-the-badge)
