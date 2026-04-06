@@ -1,0 +1,60 @@
+# Archivos compilados
+*.class
+*.jar
+*.war
+*.ear
+
+# Directorios de build
+build/
+bin/
+dist/
+target/
+out/
+*.o
+
+# IDEs
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+.project
+.classpath
+.settings/
+*.iml
+*.sublime-workspace
+
+# Eclipse
+.metadata/
+.recommenders/
+.plugins/
+
+# Archivos de sistema
+Thumbs.db
+thumbs.db
+.DS_Store
+
+# Logs
+*.log
+logs/
+
+# Archivos temporales de Jason
+*.bak
+*.tmp
+*.temp
+
+# Archivos generados por Ant
+build.xml.generated
+
+# Librerías generadas localmente
+lib/
+libs-local/
+
+# Archivos de depuración
+debug.log
+debug/
+
+# Configuración local
+local.properties
+build.properties
