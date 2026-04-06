@@ -56,7 +56,7 @@ cd jason_agentspeak
 ```
 jason_agentspeak/
 ├── libs/                  # Todas las herramientas necesarias ✓
-├── examples/              # Ejemplos oficiales de Jason
+├── examples/              # Ejemplos Jason
 │   └── [proyectos .mas2j]
 ├── run_example.bat        # Script para ejecutar
 └── README.md
@@ -94,51 +94,6 @@ Adaptar `run_example.bat` a bash o ejecutar manualmente en cada carpeta de ejemp
 17. **Saint Claus** - Sistema de distribución de regalos
 18. **Water Jugs** - Problema de búsqueda de estados
 
-## 📁 Estructura del Proyecto
-
-```
-jason_agentspeak/
-├── libs/                          # Librerías Jason
-│   └── jason-*.jar
-├── examples/                      # Ejemplos de proyectos
-│   ├── auction/                   # Subastas
-│   ├── airport/                   # Sistema aeroportuario
-│   ├── blocks-world/              # Mundo de bloques
-│   ├── cleaning-robots/           # Robots limpiadores
-│   ├── contract-net-protocol*/    # Protocolo CNP (3 versiones)
-│   ├── domestic-robot/            # Robot doméstico
-│   ├── food-simulation/           # Simulación de alimentos
-│   ├── game-of-life/              # Juego de la vida
-│   ├── gold-miners*/              # Minería de oro (2 versiones)
-│   ├── iterated-prisoners-dilemma/# Dilema del prisionero
-│   ├── mining-robots/             # Robots mineros
-│   ├── room/                      # Ambiente de sala
-│   ├── sniffer/                   # Monitor de comunicaciones
-│   ├── st-claus/                  # Santa Claus
-│   └── water-jugs/                # Problema de cántaros
-├── run_example.bat                # Script para ejecutar ejemplos (Windows)
-└── README.md                      # Este archivo
-```
-
-## 🔧 Uso Avanzado
-
-### Ejecutar un proyecto específico manualmente:
-
-```bash
-cd examples/auction
-# Jason compilará el .mas2j y ejecutará con Ant
-```
-
-### Usar el Inspector de Mentes:
-Varios ejemplos incluyen configuración para el inspector visual de mentes que permite:
-- Ver creencias de los agentes
-- Inspeccionar planes
-- Debuggear ejecución paso a paso
-
-Ejemplo en `contract-net-protocol/`:
-```
-[mindinspector="gui(cycle,html,history)"]
-```
 
 ### Crear un nuevo proyecto:
 1. Copiar una carpeta de ejemplo existente
@@ -152,42 +107,6 @@ Ejemplo en `contract-net-protocol/`:
 - **Repositorio Jason**: https://github.com/jason-lang/jason
 - **Releases**: https://github.com/jason-lang/jason/releases
 - **Documentación AgentSpeak**: https://spade-bdi.readthedocs.io/latest/agentspeak.html
-
-### Conceptos BDI
-- **FIPA (Foundation for Intelligent Physical Agents)**: Estándares para agentes
-- **Protocolo de Red de Contratos**: http://www.fipa.org/specs/fipa00029/
-
-### Tutoriales
-- Agent Programming in Jason: Guía oficial
-- BDI Fundamentals: Conceptos básicos de agentes
-- Multi-Agent Systems: Teoría y práctica
-
-## 🎯 Casos de Uso
-
-Este proyecto es ideal para:
-- 📚 **Educación**: Aprender programación de agentes BDI
-- 🔬 **Investigación**: Prototipado rápido de sistemas multiagente
-- 🏗️ **Desarrollo**: Base para sistemas complejos de agentes
-- 🎮 **Simulaciones**: Crear ambientes interactivos multiagente
-
-## 💡 Tips y Mejores Prácticas
-
-1. **Comienza con ejemplos simples** como `room/` o `water-jugs/`
-2. **Usa el Inspector de Mentes** para entender el comportamiento de agentes
-3. **Estudia la carpeta `doc/` de cada ejemplo** para explicaciones detalladas
-4. **Experimenta combinando conceptos** de diferentes ejemplos
-5. **Mantén los planes `.asl` simples y legibles** para facilitar mantenimiento
-
-## 🤝 Contribuciones
-
-Si encuentras bugs o tienes mejoras:
-1. Verifica la documentación oficial de Jason
-2. Prueba con la versión más reciente
-3. Reporta issues de manera clara
-
-## 📄 Licencia
-
-Este proyecto utiliza **Jason**, que está bajo licencia LGPL.
 
 ---
 
