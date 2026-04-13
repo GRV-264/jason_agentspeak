@@ -77,11 +77,13 @@ Se**Collected golds**: Contador en GUI muestra oro depositado en depot (e.g., "5
 - Aumentar/decrecer densidad de oro inicial
 - Modificar tamaño del grid: `MiningPlanet(N, 50, yes)` → `(N, 100, yes)`
 - Agregar complejidad: cambiar patrones de exploración
+
 ## 🗂️ Estructura
 ```
 gold-miners/
 ├── leader.asl           # Lógica del coordinador
 ├── miner.asl           por Escenario
+```
 
 ### Scenario 1: Exploración Inicial (sin oro)
 ![Scenario 1: Vacío](img/image_1.png)
@@ -104,6 +106,7 @@ gold-miners/
 - Oro recogido: 11/12 (92% completado)
 - Patrón de exploración sistemática claramente visible
 - Minero 1 (azul) en su región de cuadrantee simulado
+```
 └── doc/                 # Documentación adicional
 ```
 
