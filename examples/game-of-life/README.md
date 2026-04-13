@@ -1,7 +1,7 @@
 # Game of Life
 
 ## 📖 Descripción
-Implementación del clásico autómata celular "Juego de la Vida" de Conway con **10,000 agentes simultáneos** (grid 100×100), demostrando escalabilidad extrema en Jason.
+Implementación del clásico autómata celular "Juego de la Vida" de Conway con **10,000 agentes simultáneos** (grid 100×100), demostrando escalabilidad en Jason.
 
 ## 🎯 Objetivo del Ejemplo
 Demostrar:
@@ -72,10 +72,10 @@ agents: cell [verbose=0] #10000;     // 10,000 agentes
 - Cambiar timeout de paso (3000ms)
 - Implementar reglas más cercanas a Conway estándar
 - Agregar toroidal wrap-around en bordes (actualmente límites rectangulares)
+
 ## 💡 Patrones Clásicos Observables
 
-```
-Still Life (Bloque):
+```Still Life (Bloque):
 ██
 ██
 
@@ -84,7 +84,9 @@ Ciclo 1:    Ciclo 2:
  █          ███
  █          
  █          
-```📊 Performance y Escalabilidad
+```
+
+## 📊 Performance y Escalabilidad
 - **10,000 agentes simultáneos** en grid 100×100
 - **Actualizaciones sincrónicas** cada 3000ms mediante `TimeSteppedEnvironment`
 - **Pool de 8 threads** (no 1 thread por agente) para eficiencia
