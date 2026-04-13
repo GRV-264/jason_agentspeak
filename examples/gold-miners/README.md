@@ -122,8 +122,3 @@ gold-miners/
 - Eficiencia por cuadrante
 - Tiempo de extracción
 - Justicia en distribución de tareas
-
-## 📸 Salida de Ejemplo
-![imagen_ejemplo](img/image_1.png)
-![imagen_ejemplo](img/image_2.png)
-![imagen_ejemplo](img/image_3.png)
